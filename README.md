@@ -1,4 +1,4 @@
-**This repository contains a simple HTML project designed to demonstrate the core features and structure of HTML. It serves as a foundational template for beginners to learn how to create web pages using HTML.
+**This repository contains a simple HTML project designed to demonstrate the core features and structure of HTML. It serves as a foundational template for beginners to learn how to create web pages using HTML.**
 
 ### Features
 
