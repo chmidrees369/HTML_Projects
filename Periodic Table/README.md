@@ -1,4 +1,5 @@
 # The Periodic Table
+![Periodic Table](https://github.com/user-attachments/assets/b902e0f0-151a-4768-81d8-412b6776035c)
 
 ## Overview
 This project presents a simple HTML-based periodic table of elements. The table is structured using `<table>` elements and color-coded to differentiate element groups. The project does not use CSS or JavaScript, relying purely on HTML and inline styles for presentation.
