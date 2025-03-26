@@ -25,10 +25,12 @@ This project is a simple chessboard layout created using HTML tables. It visuall
 - Modify the `width` and `height` attributes of `<td>` elements to adjust cell size.
 - Change the `bgcolor` attributes to customize the board colors.
 - Enhance with CSS for styling improvements.
+  
+![Screenshot 2025-03-21 020901](https://github.com/user-attachments/assets/503c71c4-cf30-475e-9b08-afd6d0b62183)
 
 ## License
+This project is open-source and can be used for learning purposes.
 
-This project is **open-source** and free to use for learning and personal projects.
-
-![Screenshot 2025-03-21 020901](https://github.com/user-attachments/assets/503c71c4-cf30-475e-9b08-afd6d0b62183)
+## Author
+Developed by **CH Muhammad Idrees**.
 
