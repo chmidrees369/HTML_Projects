@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review</title>
+    <style>
+      /* CSS style to remove table borders */
+      table {
+        border: none; /* Remove default table border */
+        border-collapse: collapse; /* Optional: Ensure no space between table cells */
+      }
+
+      /* CSS to remove underline from links */
+      a {
+        text-decoration: none; /* Remove underline */
+      }
+    </style>
+  </head>
+  <body>
+    <br /><br />
+    <center>
+      <table border="1px" cellpadding="10px">
+        <tr>
+          <td>Step 1: Account</td>
+          <td>Step 2: Personal Details</td>
+          <td style="border: none" bgcolor="lightblue">Step 3: Your Review</td>
+        </tr>
+      </table>
+    </center>
+    <form>
+    <fieldset>
+        <legend><h1>Your Review</h1></legend>
+        <p><b>How did hear about us?</b></p>
+        <select name="option" id="option">
+        <option value="" disabled selected>Select Your Option</option>
+        <option value="friend">Friend</option>
+        <option value="teacher">Teacher</option>
+        <option value="youtube">YouTube</option>
+        <option value="facebook">Facebook</option>
+        <option value="linkedin">Linkendin</option>
+        </select>
+        <br>
+        <p><b>What you visit again?</b></p>
+        <input type="radio" name="visit" value="yes">Yes
+        <input type="radio" name="visit" value="no">No
+        <input type="radio" name="visit" value="maybe">Maybe
+        <br>
+        <p><b>Comments</b></p>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        <br><br>
+        <p><b>Documents</b></p>
+        <input type="file" value="upload"><br>
+        <br>
+        <input type="checkbox" name="sign" value="sign">Sign me up for email address
+        <br /><br />
+        <a href="personalDetail.html">
+          <img
+            src="..\images\animated-skip-arrow-gradient-ui-icon-127527.gif"
+            alt="Back Button"
+            width="100"
+          />
+        </a>
+
+        <a href="summited.html">
+          <img
+            src="..\images\af4de54de0aca579301ff13644ee22fe.gif"
+            alt="Summit Button"
+            width="110"
+          />
+        </a>
+    </fieldset>
+    </form>
+  </body>
+</html

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Air Traveling Booking Form</title>
+  </head>
+  <body background="a.jpg" style="background-size: cover">
+    <form action="summit.php" method="post">
+        <fieldset>
+          <legend><h2>Contact Details</h2></legend>
+          <font color="black" size="3" face="Arial">
+          <label for="Mobile NO">Mobile Number</label><br />
+          <input
+            type="number"
+            name="number"
+            id="number"
+            placeholder="03XX-XXXXXXX"
+            required
+          />
+          <br /><br />
+          <label for="Email">Email</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="name@gmail.com"
+            required
+          />
+          <br />
+        </fieldset>
+      </font>
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      <label for="checkbox"
+        >I agree to receive travel related information and deals</label
+      >
+      <hr />
+      <fieldset>
+        <legend><h2>Passenger Details</h2></legend>
+        <font color="black" size="3" face="Arial">
+          <label for="FirstName">First Name</label><br />
+          <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required />
+          <br /><br />
+          <label for="LastName">Last Name</label><br />
+          <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name" required />
+          <br /><br />
+          <label for="CNIC">CNIC</label><br />
+          <input
+            type="number"
+            name="cnic"
+            id="cnic"
+            placeholder="XXXXX-XXXXXXX-X"
+            required
+          />
+          <br /><br />
+          <label for="Age">Age</label><br />
+          <input type="number" name="age" id="age" placeholder="18"  required /> 
+          <br /><br />
+          <label for="gender">Select Title</label>
+            <br /><br>
+          <input type="radio" name="gender" value="Mr"  required/> Mr
+            <input type="radio" name="gender" value="Mrs" required /> Mrs
+            <input type="radio" name="gender" value="Miss" required /> Ms
+            <br><br><br>
+            <label for="dateofbirth">&nbsp;Date of Birth</label>&nbsp;&nbsp;
+            <input type="date" name="dateofbirth" id="dateofbirth" required />
+        </legend>
+      </fieldset>
+      </font>
+      <br><br>
+      <fieldset>
+           <center><button><img src="submit.png" alt="Summit" height="50"></button></center>
+       </fieldset>
+    </form>
+  </body>
+</html>
