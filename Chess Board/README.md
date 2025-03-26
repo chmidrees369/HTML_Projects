@@ -30,3 +30,5 @@ This project is a simple chessboard layout created using HTML tables. It visuall
 
 This project is **open-source** and free to use for learning and personal projects.
 
+![Screenshot 2025-03-21 020901](https://github.com/user-attachments/assets/503c71c4-cf30-475e-9b08-afd6d0b62183)
+
